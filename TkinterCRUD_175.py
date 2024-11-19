@@ -4,6 +4,7 @@ import sqlite3
 
 # Mengimpor kelas dan fungsi tertentu dari modul tkinter untuk membuat elemen GUI
 from tkinter import Tk, Label, Entry, Button, StringVar, messagebox, ttk
+
 # Fungsi untuk membuat database dan tabel
 def create_database():
     # Membuka koneksi ke database SQLite bernama 'nilai_siswa.db'
